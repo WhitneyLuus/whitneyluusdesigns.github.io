@@ -1,0 +1,249 @@
+/*_________________________________________________*/
+@import url("https://fonts.googleapis.com/css2?family=Antic+Didone&family=Space+Grotesk:wght@300..700&display=swap");
+@font-face {
+  font-family: Molika;
+  src: url("components/assets/fonts/MOLIKA.ttf");
+}
+/*_____________________________________________________*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+/*_________________________________________________*/
+h1 {
+  font-family: "Molika";
+  font-size: 102px;
+  letter-spacing: -1.5px;
+}
+h2 {
+  font-family: "Molika";
+  font-size: 64px;
+  letter-spacing: -0.5px;
+}
+h3 {
+  font-family: "Molika";
+  font-size: 51px;
+}
+h4 {
+  font-family: "Molika";
+  font-size: 36;
+  letter-spacing: 0.25px;
+}
+h5 {
+  font-family: "Molika";
+  font-size: 25px;
+}
+h6 {
+  font-family: "Molika";
+  letter-spacing: 0.15px;
+  font-size: 21px;
+}
+.sub1 {
+  font-family: "Space Grotesk";
+  letter-spacing: 0.15px;
+  font-size: 17px;
+}
+.sub2 {
+  font-family: "Space Grotesk";
+  letter-spacing: 0.1px;
+  font-size: 15px;
+}
+.body1 {
+  font-family: "Space Grotesk";
+  letter-spacing: 0.5px;
+  font-size: 17px;
+}
+.body2 {
+  font-family: "Space Grotesk";
+  letter-spacing: 0.25px;
+  font-size: 15px;
+}
+.btn {
+  font-family: "Space Grotesk";
+  letter-spacing: 1.25px;
+  font-size: 15px;
+}
+.caption {
+  font-family: "Space Grotesk";
+  letter-spacing: 0.4px;
+  font-size: 13px;
+}
+.overline {
+  font-family: "Space Grotesk";
+  font-size: 11px;
+  letter-spacing: 1.5px;
+}
+/*_________________________________________________*/
+header {
+  border: solid 2px #231f20;
+}
+.top_banner {
+  border-bottom: solid 2px #231f20;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 calc(4px * 13);
+  background-color: #a388ee;
+}
+.contact_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: calc(4px * 7);
+}
+.icon_txt_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: calc(4px * 2) 0;
+  gap: calc(4px * 2);
+}
+.icon_txt_link img {
+  width: calc(4px * 4);
+}
+.social_media_icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: calc(4px * 4);
+}
+
+.icon_link,
+.icon_link img {
+  height: calc(4px * 4);
+}
