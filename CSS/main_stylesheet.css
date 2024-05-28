@@ -746,6 +746,7 @@ nav ul li:hover {
   align-items: center;
   flex-direction: column;
 }
+
 .email_list_input_box {
   height: 56px;
   background-color: white;
@@ -973,6 +974,9 @@ nav ul li:hover {
 }
 form button {
   border: none;
+}
+form button:hover {
+  cursor: pointer;
 }
 .contact_section h3 {
   padding: 20px 40px;
