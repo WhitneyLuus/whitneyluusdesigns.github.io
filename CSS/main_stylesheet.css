@@ -1118,7 +1118,8 @@ footer h6 {
 .contact_nav h6 {
   margin-bottom: calc(4px * 4);
 }
-.contact_nav .f_icon_txt:nth-child(2) {
+.contact_nav .f_icon_txt:nth-child(2),
+.contact_nav .f_icon_txt:nth-child(3) {
   margin-bottom: calc(4px * 2);
 }
 .social_media_icons_f {
