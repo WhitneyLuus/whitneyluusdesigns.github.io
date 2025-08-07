@@ -372,21 +372,21 @@ body {
   width: 100%;
   ;
 }
-
 .app {
-  opacity: 0;
   width: 100%;
   max-width: 1440px;
+  display: none;
 }
 
 /** Header Styles **/
-.splash {
+/* .splash {
   opacity: 1;
-}
+  
+} */
 
-.app {
+/* .app {
   display: block;
-}
+} */
 
 .contact-bar {
   padding: 10px 50px;
@@ -1504,7 +1504,12 @@ footer .footer-section .footer-col4 .mailing-list-input-box .mailing-list-submit
       footer .footer-section{
         padding: 25px;
       }
-
+      footer .contact-cta-container .contact-cta-icon-container{
+        flex-wrap: wrap;
+        gap:32px;
+        justify-content: center;
+        align-items: center;
+      }
       main .section-container {
         padding: 50px 15px;
       }

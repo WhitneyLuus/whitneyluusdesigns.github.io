@@ -85,7 +85,7 @@
   if (animationDone && pageLoaded) {
     // 1. Reveal your app under the splash
     const app = document.getElementById('app');
-    app.style.opacity = '1';
+    app.style.display = 'block';
 
     // 2. Fade the splash out over 0.5s, then remove it
     gsap.to('.splash', {
@@ -97,6 +97,8 @@
       }
     });
   }
+
+  startTechIconsMarquee();   
 }
 
 });

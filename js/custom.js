@@ -5,26 +5,40 @@ $(document).ready(function () {
   });
 });
 
-//tech icons scrolling
-document.addEventListener('DOMContentLoaded', () => {
-  // 1️⃣ Select & duplicate
-  const container = document.querySelector('.tech-icon-container');
-  container.innerHTML += container.innerHTML;
+function startTechIconsMarquee(selector = '.tech-icon-container', duration = 20, ease = 'none') {
+  const container = document.querySelector(selector);
+  if (!container) {
+    console.warn(`startTechIconsMarquee: no element matches "${selector}"`);
+    return;
+  }
 
-  // 2️⃣ Measure one full “set” width
+  // Prevent duplicate setups
+  if (!container.dataset.marqueeInitialized) {
+    // 1️⃣ Duplicate contents
+    container.innerHTML += container.innerHTML;
+    container.dataset.marqueeInitialized = 'true';
+  }
+
+  // 2️⃣ Compute half-width (one set)
   const singleWidth = container.scrollWidth / 2;
 
-  // 3️⃣ Animate continuously
+  // 3️⃣ Kill any prior tweens & restart
+  gsap.killTweensOf(container);
+  gsap.set(container, { x: 0 });
+
   gsap.to(container, {
     x: -singleWidth,
-    ease: "none",
-    duration: 20,    // adjust speed: lower = faster
-    repeat: -1       // infinite
+    ease,
+    duration,
+    repeat: -1
   });
 
-  console.log('Scroll Width:', container.scrollWidth);
-console.log('Client Width:', container.clientWidth);
-});
+  console.log('tech-icons:', {
+    totalWidth: container.scrollWidth,
+    singleWidth,
+    visibleWidth: container.clientWidth
+  });
+}
 
 // Link/Navigation/Download Functionality
 function goTo(url, target, isDownload) {
