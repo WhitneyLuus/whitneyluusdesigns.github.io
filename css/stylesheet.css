@@ -1501,6 +1501,9 @@ footer .footer-section .footer-col4 .mailing-list-input-box .mailing-list-submit
       main section {
         padding: 25px;
       }
+      footer .footer-section{
+        padding: 25px;
+      }
 
       main .section-container {
         padding: 50px 15px;
