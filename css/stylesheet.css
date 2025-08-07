@@ -1492,6 +1492,9 @@ footer .footer-section .footer-col4 .mailing-list-input-box .mailing-list-submit
     }
 
     @media screen and (max-width: 500px) {
+      .arrow-btn img {
+        animation: none !important;
+      }
       .benefits-section .section-title {
         top: 47.5px;
       }
