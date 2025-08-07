@@ -1,0 +1,18 @@
+Things to do:
+
+1. Loading animation [ ]
+Loading-animation algorhithm 
+box 1 - from cicle to box to circle
+pause
+box 2 - from cicle to box to circle
+pause
+box 3 - from cicle to box to circle
+pause
+box 4 - from cicle to box to circle
+pause
+box 1 - move left
+box 2 - move down
+box 4 - move left
+box 3 - move up
+pause
+repeat
