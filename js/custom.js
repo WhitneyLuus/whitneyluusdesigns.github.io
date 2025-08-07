@@ -21,6 +21,9 @@ document.addEventListener('DOMContentLoaded', () => {
     duration: 20,    // adjust speed: lower = faster
     repeat: -1       // infinite
   });
+
+  console.log('Scroll Width:', container.scrollWidth);
+console.log('Client Width:', container.clientWidth);
 });
 
 // Link/Navigation/Download Functionality

@@ -374,22 +374,22 @@ body {
 }
 
 .app {
-  display: none;
+  opacity: 0;
   width: 100%;
   max-width: 1440px;
 }
 
 /** Header Styles **/
-/* .splash {
-  display: none;
+.splash {
+  opacity: 1;
 }
 
 .app {
   display: block;
-} */
+}
 
 .contact-bar {
-  padding: 10px 100px;
+  padding: 10px 50px;
   background-color: var(--purple8);
   border: var(--border1);
   border-bottom: 0px;
@@ -1450,8 +1450,9 @@ footer .footer-section .footer-col4 .mailing-list-input-box .mailing-list-submit
         max-width: none;
       }
 
-      .services-section .services-btn-container .services-btn h5 {
-        display: none;
+      .services-section .services-btn-container .services-btn {
+        flex-direction: column;
+        width: 100% !important;
       }
 
       .services-section .services-btn-container .services-btn {

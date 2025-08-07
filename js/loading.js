@@ -80,12 +80,12 @@
     .to(".l-box4", {duration:.5,  borderRadius:0, ease:"bounce.out"},  "<")
     
 
-    // 3️⃣ Once both page + animation are done, hide splash & show app
+     // 3️⃣ Once both page + animation are done, hide splash & show app
     function checkReady() {
   if (animationDone && pageLoaded) {
     // 1. Reveal your app under the splash
     const app = document.getElementById('app');
-    app.style.display = 'block';
+    app.style.opacity = '1';
 
     // 2. Fade the splash out over 0.5s, then remove it
     gsap.to('.splash', {
