@@ -380,13 +380,13 @@ body {
 }
 
 /** Header Styles **/
-.splash {
+/* .splash {
   display: none;
 }
 
 .app {
   display: block;
-}
+} */
 
 .contact-bar {
   padding: 10px 100px;
@@ -1321,3 +1321,213 @@ footer .footer-section .footer-col4 .mailing-list-input-box .mailing-list-submit
   padding: 10px;
   background-color: var(--yellow);
 }
+.form-status, .mailing-form-status{
+    padding-left: 15px;
+    padding-top: 15px;
+    text-align: center !important;
+   }
+
+   /* ──────────────────────────────────────────────────────────────────────────
+      Responsiveness
+   ────────────────────────────────────────────────────────────────────────── */
+
+    header .mobile-menu {
+      width: 50px;
+      display: none;
+      border: var(--border1);
+      padding: 10px;
+      border-radius: 100px;
+      background-color: var(--white);
+      box-shadow: 4px 4px 0px rgb(0, 0, 0, 0.8);
+    }
+
+    header .mobile-nav {
+      display: none;
+    }
+
+    header .mobile-nav ul li {
+      width: 100%;
+      background-color: var(--white);
+      padding: 15px;
+      border: var(--border1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+      position: relative;
+      text-transform: uppercase;
+    }
+
+    header .mobile-nav ul li:hover,
+    header .mobile-nav ul li:active {
+      box-shadow: 8px 8px 0px rgb(0, 0, 0, 0.8);
+      z-index: 5;
+      cursor: pointer;
+      position: relative;
+      background-color: var(--yellow);
+    }
+
+    header nav .mobile-menu div {
+      background-color: var(--black);
+      height: 4px;
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    @media screen and (max-width: 1024px) {
+      .hero-section .h-box-container {
+        flex-direction: column;
+        gap: 50px;
+      }
+
+      .h-r-box .hero-icon {
+        min-width: 150px;
+      }
+
+      .hero-section {
+        text-align: center;
+      }
+
+      .hero-section>p {
+        font-size: var(--fs-h4);
+      }
+
+      footer .contact-section {
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+
+      footer .contact-section .contact-form-container,
+      footer .contact-section .contact-cta-container {
+        width: 100%;
+        max-width: none;
+      }
+
+      main section .section-title {
+        max-width: 80%;
+      }
+
+      footer .footer-section {
+        justify-content: center;
+        align-items: center;
+      }
+
+      .contact-bar .divider,
+      .contact-bar .CTA {
+        display: none;
+      }
+    }
+
+    @media screen and (max-width: 832px) {
+      .contact-bar .icon-txt p {
+        display: none;
+      }
+
+      .contact-bar .icon-txt img {
+        width: 25px;
+      }
+
+      header nav {
+        position: relative;
+        z-index: 4;
+      }
+
+      header nav .nav-links {
+        display: none;
+      }
+
+      header .mobile-nav {}
+
+      header nav .mobile-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .card {
+        max-width: none;
+      }
+
+      .services-section .services-btn-container .services-btn h5 {
+        display: none;
+      }
+
+      .services-section .services-btn-container .services-btn {
+        width: fit-content;
+      }
+
+      .services-section .services-btn .services-btn-icon img {
+        width: 50px;
+      }
+    }
+
+
+    @media screen and (max-width: 768px) {
+      .about-section .about-image {
+        min-width: 0;
+
+      }
+
+    }
+
+    @media screen and (max-width: 680PX) {
+
+      .portrait-icon.one {
+        display: none;
+      }
+
+      .hero-section {
+        padding: 25px;
+      }
+
+    }
+
+    @media screen and (max-width: 500px) {
+      .benefits-section .section-title {
+        top: 47.5px;
+      }
+
+      main section .section-title {
+        top: 26.5px;
+      }
+
+      main section .section-title h1 {
+        font-size: var(--fs-h3);
+      }
+
+      main section {
+        padding: 25px;
+      }
+
+      main .section-container {
+        padding: 50px 15px;
+      }
+
+      main .section-container h2 {
+        font-size: var(--fs-h3);
+      }
+
+      .about-section .about-cta {
+        padding: 15px;
+      }
+
+      footer .contact-cta-container .contact-cta-title p {
+        font-size: var(--fs-h1);
+        line-height: normal;
+      }
+
+      .arrow-btn-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .arrow-btn-container .arrow-btn:last-child img {
+        transform: rotate(180deg);
+      }
+
+      .hero-section .arrow-btn:first-child img {
+        transform: rotate(0);
+      }
+    }
