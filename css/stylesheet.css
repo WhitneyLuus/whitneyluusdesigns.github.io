@@ -1417,6 +1417,7 @@ footer .footer-section .footer-col4 .mailing-list-input-box .mailing-list-submit
       .contact-bar .CTA {
         display: none;
       }
+      
     }
 
     @media screen and (max-width: 832px) {
@@ -1482,7 +1483,12 @@ footer .footer-section .footer-col4 .mailing-list-input-box .mailing-list-submit
       .hero-section {
         padding: 25px;
       }
-
+      footer .contact-section .contact-form-container form .input-box-group{
+        flex-wrap: wrap;
+      }
+      footer .contact-section .contact-form-container form .input-box{
+        width: 100%;
+      }
     }
 
     @media screen and (max-width: 500px) {
