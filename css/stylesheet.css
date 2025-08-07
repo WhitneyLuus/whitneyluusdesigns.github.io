@@ -1330,7 +1330,7 @@ footer .footer-section .footer-col4 .mailing-list-input-box .mailing-list-submit
    /* ──────────────────────────────────────────────────────────────────────────
       Responsiveness
    ────────────────────────────────────────────────────────────────────────── */
-   
+
 
     header .mobile-menu {
       width: 50px;
@@ -1530,5 +1530,12 @@ footer .footer-section .footer-col4 .mailing-list-input-box .mailing-list-submit
 
       .hero-section .arrow-btn:first-child img {
         transform: rotate(0);
+      }
+      .portfolio-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
       }
     }
