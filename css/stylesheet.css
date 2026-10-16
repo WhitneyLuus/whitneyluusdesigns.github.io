@@ -1222,7 +1222,7 @@ nav .nav-links .nav-cta.active {
   flex-direction: row;
   align-items: center;
   gap: var(--sp-3);
-  flex: 0 1 250px;
+  flex: 1 1 250px;
   min-width: 230px;
   border: var(--border1);
   padding: var(--sp-3) var(--sp-5);
@@ -1251,6 +1251,7 @@ nav .nav-links .nav-cta.active {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: 0 0 auto;
   width: fit-content;
   aspect-ratio: 1 / 1;
   border-radius: var(--radius-round);
@@ -1260,6 +1261,8 @@ nav .nav-links .nav-cta.active {
 
 .services-btn-icon img {
   width: 36px;
+  max-width: none;
+  flex: none;
 }
 
 .services-btn-label {
