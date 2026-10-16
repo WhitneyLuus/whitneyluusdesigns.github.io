@@ -2,783 +2,795 @@
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Whitney Luus Designs | Sleek Digital Media Design and Development for Johannesburg Businesses</title>
-  <!--Website description-->
+  <title>Web Design &amp; Development Johannesburg | Whitney Luus Designs</title>
   <meta name="description"
-    content="Whitney Luus Designs is a digital media agency offering design, development, UX/UI design, digital marketing and branding services to small and medium sized businesses in the Johannesburg area.">
-  <!--Website keywords-->
+    content="Johannesburg web design, branding and UX/UI for small businesses. Whitney Luus Designs blends strategy, design and code. Book a free consultation.">
   <meta name="keywords"
-    content="digital media design, web design, web development, Johannesburg, Roodepoort, South Africa, UX/UI design, user experience design, user interface design, graphic design, 2d design, 3d design, 2d illustration, 3d illustration, brand identity design, digital marketing, branding, creative agency, small business marketing, freelance designer, Johannesburg web design, Roodepoort web design, South African web design, Johannesburg creative agency, Johannesburg design agency, custom websites, landing page design, e-commerce websites, website maintenance, logo design, brand identity, social media graphics, UI/UX design, user research, prototyping, digital marketing strategy, web design Johannesburg, front-end development, back-end development, responsive design, CMS, e-commerce solutions, branding, logo design, UI/UX design, digital graphics, packaging design, Johannesburg, Randburg, Roodepoort, South Africa">
-  <!--tags control how your page appears when shared on social media platforms like Facebook.-->
-  <meta property="og:title" content="Whitney Luus | Web Design, Development & Branding Services in Johannesburg">
-  <meta property="og:description"
-    content="Offering expert web design, development, and branding services in Johannesburg, Randburg, and Roodepoort. Specializing in user-friendly websites and unique brand identities.">
-  <meta property="og:url" content="https://www.whitneyluus.com/">
-  <meta property="og:type" content="website">
-  <!--<meta property="og:image" content="https://www.whitneyluus.com/images/branding-services.jpg">-->
-  <!--Geo-targeting tags-->
-  <meta property="og:title" content="Whitney Luus | Web Design, Development & Branding Services in Johannesburg">
-  <meta property="og:description"
-    content="Offering expert web design, development, and branding services in Johannesburg, Randburg, and Roodepoort. Specializing in user-friendly websites and unique brand identities.">
-  <meta property="og:url" content="https://www.whitneyluus.com/">
-  <meta property="og:type" content="website">
-  <!--helps prevent duplicate content issues by specifying the main URL for a page-->
-  <link rel="canonical" href="https://www.whitneyluusdesigns.com/">
+    content="digital media design, web design, web development, Johannesburg, Roodepoort, South Africa, UX/UI design, user experience design, user interface design, graphic design, brand identity design, digital marketing, branding, creative agency, small business marketing, freelance designer, Johannesburg web design, custom websites, landing page design, e-commerce websites, logo design, social media graphics, UI/UX design, digital marketing strategy, front-end development, responsive design, CMS, e-commerce solutions, packaging design, Randburg, Gauteng">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Whitney Luus">
+  <meta name="theme-color" content="#F4D738">
 
-  <!--Email library-->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-  </script>
-  <script type="text/javascript">
-    (function () {
-      emailjs.init({
-        publicKey: "2_KTmFQU3vvqmcDf7",
-      });
-    })();
-  </script>
-  <!--GEO META TAGS-->
+  <!-- Open Graph -->
+  <meta property="og:title" content="Web Design, Branding & UX/UI in Johannesburg | Whitney Luus Designs">
+  <meta property="og:description"
+    content="Johannesburg web design, development, branding and UX/UI. Whitney Luus Designs helps small businesses turn ideas into brands and websites people remember.">
+  <meta property="og:url" content="https://www.whitneyluusdesigns.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Whitney Luus Designs">
+  <meta property="og:locale" content="en_ZA">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Web Design, Branding & UX/UI in Johannesburg | Whitney Luus Designs">
+  <meta name="twitter:description"
+    content="Johannesburg web design, development, branding and UX/UI for small businesses. Book a free consultation with Whitney Luus Designs.">
+
+  <!-- Geo targeting -->
   <meta name="geo.region" content="ZA-GP">
   <meta name="geo.placename" content="Johannesburg, Gauteng, South Africa">
   <meta name="geo.position" content="-26.2041;28.0473">
   <meta name="ICBM" content="-26.2041, 28.0473">
-  <!--rOBOT META TAG-->
-  <meta name="robots" content="index, follow">
+
+  <link rel="canonical" href="https://www.whitneyluusdesigns.com/">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/Draggable.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/DrawSVGPlugin.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/EaselPlugin.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/Flip.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/GSDevTools.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/InertiaPlugin.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/MotionPathHelper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/MotionPathPlugin.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/MorphSVGPlugin.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/Observer.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/Physics2DPlugin.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/PhysicsPropsPlugin.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/PixiPlugin.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrambleTextPlugin.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
-  <!-- ScrollSmoother requires ScrollTrigger -->
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollToPlugin.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/TextPlugin.min.js"></script>
-
-  <!-- RoughEase, ExpoScaleEase and SlowMo are all included in the EasePack file -->
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/EasePack.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/CustomEase.min.js"></script>
-  <!-- CustomBounce requires CustomEase -->
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/CustomBounce.min.js"></script>
-  <!-- CustomWiggle requires CustomEase -->
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/CustomWiggle.min.js"></script>
-
-  <!--JQUERY-->
-  <script src="js/jquery.js"></script>
-  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-    </script> -->
-  <!--FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Boogaloo&family=Space+Grotesk:wght@300..700&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="./css/stylesheet.css" />
+  <link rel="stylesheet" href="css/stylesheet.css">
 
-  <!--Custom Script-->
-  <script src="./js/loading.js"></script>
-  <style>
-    nav .nav-links li.active::after,
-    .services-section .services-btn-container .services-btn.active::after {
-      content: "";
-      position: absolute;
-      top: -13px;
-      right: -13px;
-      width: 24px;
-      height: 24px;
-      background: url("assets/star_icon.png") no-repeat center/contain;
-      background-size: cover;
-      background-repeat: no-repeat;
-      z-index: 1;
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+  <script src="js/custom.js" defer></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NEVGGCKF5B"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-NEVGGCKF5B');
+  </script>
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://www.whitneyluusdesigns.com/#business",
+          "name": "Whitney Luus Designs",
+          "description": "Digital media design and development studio in Johannesburg offering web design, web development, brand identity design, graphic design, UX/UI design and digital marketing for small and medium businesses.",
+          "url": "https://www.whitneyluusdesigns.com/",
+          "telephone": "+27731693403",
+          "email": "info@whitneyluusdesigns.com",
+          "priceRange": "$$",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Johannesburg",
+            "addressRegion": "Gauteng",
+            "addressCountry": "ZA"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -26.2041,
+            "longitude": 28.0473
+          },
+          "areaServed": [
+            { "@type": "City", "name": "Johannesburg" },
+            { "@type": "City", "name": "Roodepoort" },
+            { "@type": "City", "name": "Randburg" },
+            { "@type": "Country", "name": "South Africa" }
+          ],
+          "founder": {
+            "@type": "Person",
+            "name": "Whitney Luus",
+            "jobTitle": "Digital Media Designer and Developer"
+          },
+          "sameAs": [
+            "https://instagram.com/whitneyluusdesigns",
+            "https://youtube.com/@LuusMediaLab",
+            "https://luusmedialab.substack.com"
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Design and Development Services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Brand Identity Design" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Web Design & Development" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Graphic Design" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "UX/UI Design" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SEO & Digital Marketing" } }
+            ]
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.whitneyluusdesigns.com/#website",
+          "url": "https://www.whitneyluusdesigns.com/",
+          "name": "Whitney Luus Designs",
+          "publisher": { "@id": "https://www.whitneyluusdesigns.com/#business" }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.whitneyluusdesigns.com/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What services do you offer?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "I offer Brand Identity Design, Web Design & Development, Graphic Design and UX/UI Design — plus the SEO and digital marketing that helps it all get found."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How much do your services cost?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Every project is different, so I quote per project. Book a free consultation and I'll give you a clear, tailored quote with no hidden surprises."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long does a project take?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Timelines depend on the scope of your project. After our free consultation I'll map out a clear schedule so you know exactly what to expect, and when."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you work with clients outside Johannesburg?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Absolutely. I'm based in Johannesburg but work remotely with clients anywhere, keeping in touch by WhatsApp, email and video calls."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do we get started?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Easy — send me a WhatsApp or fill in the contact form below. We'll set up a free consultation and take it from there."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you offer ongoing support?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. I offer website maintenance and support to keep everything fast, secure and up to date long after launch."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can you redesign my existing website?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes — I can refresh, redesign or rebuild your current site, keeping what works and fixing what doesn't, so it looks sharp, loads fast and converts better."
+              }
+            }
+          ]
+        }
+      ]
     }
-
-
-  </style>
+  </script>
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NEVGGCKF5B"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-NEVGGCKF5B');
-</script>
 
 <body>
-  <div class="splash" id="splash">
-    <div id="l-box-container" class="l-box-container">
-      <div class="l-box l-box1"><img alt="Graphic Design Icon" src="assets/design_icon.svg" /></div>
-      <div class="l-box l-box2"><img alt="Web Design and Development Icon" src="assets/web_icon.svg" /></div>
-      <div class="l-box l-box3"><img alt="Brand Identity Design Icon" src="assets/branding_icon.svg" /></div>
-      <div class="l-box l-box4"><img alt="UX/UI Design Icon" src="assets/ux_icon.svg" /></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Splash loader -->
+  <div class="splash" id="splash" aria-hidden="true">
+    <div class="l-box-container">
+      <div class="l-box"><img src="assets/design_icon.svg" alt=""></div>
+      <div class="l-box"><img src="assets/web_icon.svg" alt=""></div>
+      <div class="l-box"><img src="assets/branding_icon.svg" alt=""></div>
+      <div class="l-box"><img src="assets/ux_icon.svg" alt=""></div>
     </div>
   </div>
-  <!--WEBSITE CONTENT BEGINS-->
+
   <div class="app" id="app">
     <header>
       <div class="contact-bar">
-        <div onclick="goTo('https://wa.me/+27731693403', '_blank')" class="phone-number icon-txt">
-          <img alt="Phone Icon" src="assets/phone_icon.svg" />
+        <a class="icon-txt" href="tel:+27731693403">
+          <img src="assets/phone_icon.svg" alt="">
           <p>+27 73 169 3403</p>
-        </div>
-        <div class="divider">***</div>
-        <div onclick="goTo('https://calendar.app.google/taiJDDSPTkY6q4UG6', '_blank')" class="CTA">GET A FREE
-          CONSULTATION TODAY!</div>
-        <div class="divider">***</div>
-        <div onclick="goTo('#contact')" class="email icon-txt">
-          <img alt="Email Icon" src="assets/email_icon.svg" />
+        </a>
+        <span class="divider" aria-hidden="true">***</span>
+        <a class="bar-cta" href="https://wa.me/27731693403" target="_blank" rel="noopener">Get a free consultation
+          on WhatsApp today!</a>
+        <span class="divider" aria-hidden="true">***</span>
+        <a class="icon-txt" href="mailto:info@whitneyluusdesigns.com">
+          <img src="assets/email_icon.svg" alt="">
           <p>info@whitneyluusdesigns.com</p>
-        </div>
+        </a>
       </div>
-      <nav>
-        <div class="logo">
-          <img alt="Whitney Luus Designs Logo" src="assets/logo_sm.svg" />
-        </div>
-        <ul class="nav-links">
-          <li onclick="location.href='#home'">
-            <a href="#home">
-              <h4>Home</h4>
-            </a>
-          </li>
-          <li onclick="location.href='#about'">
-            <a href="#about">
-              <h4>About</h4>
-            </a>
-          </li>
-          <li onclick="location.href='#services'">
-            <a href="#services">
-              <h4>Services</h4>
-            </a>
-          </li>
-          <li onclick="goTo('https://www.playbook.com/s/whitneyoo/7kqUw8ng7rbkdAbDqQJvhno2', '_blank')">
-            <a href="https://www.behance.net/whitneyluusdesigns" target="_blank">
-              <h4>Portfolio</h4>
-            </a>
-          </li>
-          <li onclick="location.href='#contact'">
-            <a href="#contact">
-              <h4>Contact</h4>
-            </a>
-          </li>
-        </ul>
-        <script>
-          // get all the <li> in your nav
-          const items = document.querySelectorAll("nav .nav-links li");
 
-          items.forEach((li) => {
-            li.addEventListener("click", () => {
-              // clear any existing “active”
-              items.forEach((i) => i.classList.remove("active"));
-              // mark THIS one
-              li.classList.add("active");
-            });
-          });
-        </script>
-        <div class="mobile-menu">
+      <nav aria-label="Primary">
+        <a class="logo" href="#home" aria-label="Whitney Luus Designs — Home">
+          <img src="assets/logo_sm.svg" alt="">
+        </a>
+        <ul class="nav-links">
+          <li><a href="#home"><span>Home</span></a></li>
+          <li><a href="#services"><span>Services</span></a></li>
+          <li><a href="#process"><span>Process</span></a></li>
+          <li><a href="#faq"><span>FAQ</span></a></li>
+          <li><a href="#about"><span>About</span></a></li>
+          <li class="nav-cta"><a href="#contact"><span>Contact</span></a></li>
+        </ul>
+        <button class="mobile-menu" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
           <div></div>
           <div></div>
           <div></div>
-        </div>
+        </button>
       </nav>
-      <div class="mobile-nav">
+
+      <div class="mobile-nav" id="mobile-nav" hidden>
         <ul>
-          <li onclick="location.href='#home'">
-            <a href="#home">
-              <h4>Home</h4>
-            </a>
-          </li>
-          <li onclick="location.href='#about'">
-            <a href="#about">
-              <h4>About</h4>
-            </a>
-          </li>
-          <li onclick="location.href='#services'">
-            <a href="#services">
-              <h4>Services</h4>
-            </a>
-          </li>
-          <li onclick="location.href='#portfolio'">
-            <a href="#portfolio">
-              <h4>Portfolio</h4>
-            </a>
-          </li>
-          <li onclick="location.href='#contact'">
-            <a href="#contact">
-              <h4>Contact</h4>
-            </a>
-          </li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </header>
-    <!--HEADER ENDS-->
-    <section class="hero-section">
-      <div class="h-box-container">
-        <div class="h-l-box">
-          <h1>Hello There, Welcome</h1>
-          <h5>
-            I am a <strong>Digital Media Designer</strong> and
-            <strong>Developer</strong> at your service.
-          </h5>
-          <div class="arrow-btn-container">
-            <div class="arrow-btn">
-              <h4 onclick="goTo('downloads/WHITNEY_ANULI_LUUS_CV.pdf', '_blank')">Download CV</h4>
-              <img alt="Arrow Icon" src="assets/arrow_icon.svg" />
-            </div>
-            <div class="arrow-btn">
-              <img alt="Arrow Icon" src="assets/arrow_icon.svg" />
-              <h4 onclick="goTo('#contact', '_self')">Get In Touch</h4>
-            </div>
-          </div>
-        </div>
-        <div class="h-r-box">
-          <div class="hero-icon">
-            <img alt="Graphic Design Icon" src="assets/design_icon.svg" />
-          </div>
-          <div class="hero-icon">
-            <img alt="Web Design and Development Icon" src="assets/web_icon.svg" />
-          </div>
-          <div class="hero-icon">
-            <img alt="Brand Identity Design Icon" src="assets/branding_icon.svg" />
-          </div>
-          <div class="hero-icon">
-            <img alt="UX/UI Icon" src="assets/ux_icon.svg" />
-          </div>
-        </div>
-      </div>
-      <p>
-        Design, Development, Branding, UX/UI and so much more! Digital success
-        at your fingertips.
-      </p>
-    </section>
-    <!--HERO SECTION ENDS-->
-    <section class="tech-icon-section">
-      <div>
-        <div class="tech-icon-container">
-          <div class="tech-icon">
-            <img alt="Flutter Icon" src="assets/tech_icon_1.svg" />
-          </div>
-          <div class="tech-icon">
-            <img alt="PHP Icon" src="assets/tech_icon_2.svg" />
-          </div>
-          <div class="tech-icon">
-            <img alt="Adobe InDesign Icon" src="assets/tech_icon_3.svg" />
-          </div>
-          <div class="tech-icon">
-            <img alt="Wordpress Icon" src="assets/tech_icon_4.svg" />
-          </div>
-          <div class="tech-icon">
-            <img alt="Next.js Icon" src="assets/tech_icon_5.svg" />
-          </div>
-          <div class="tech-icon">
-            <img alt="Elementor Icon" src="assets/tech_icon_6.svg" />
-          </div>
-          <div class="tech-icon">
-            <img alt="Adobe Audition Icon" src="assets/tech_icon_7.svg" />
-          </div>
-          <div class="tech-icon">
-            <img alt="Adobe Premiere Pro Icon" src="assets/tech_icon_8.svg" />
-          </div>
-          <div class="tech-icon">
-            <img alt="Adobe After Effects Icon" src="assets/tech_icon_9.svg" />
-          </div>
-          <div class="tech-icon">
-            <img alt="Adobe Photoshop Icon" src="assets/tech_icon_10.svg" />
-          </div>
-          <div class="tech-icon">
-            <img alt="Adobe Illustrator Icon" src="assets/tech_icon_11.svg" />
-          </div>
-          <div class="tech-icon">
-            <img alt="Node.js Icon" src="assets/tech_icon_12.svg" />
-          </div>
-          <div class="tech-icon">
-            <img alt="React Icon" src="assets/tech_icon_13.svg" />
-          </div>
-          <div class="tech-icon">
-            <img alt="JavaScript Icon" src="assets/tech_icon_14.svg" />
-          </div>
-          <div class="tech-icon">
-            <img alt="HTML5 Icon" src="assets/tech_icon_15.svg" />
-          </div>
-          <div class="tech-icon">
-            <img alt="Github Icon" src="assets/tech_icon_16.svg" />
-          </div>
-          <div class="tech-icon">
-            <img alt="Figma Icon" src="assets/tech_icon_17.svg" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--TECH ICON SECTION ENDS-->
-    <main>
-      <section class="about-section" id="about">
-        <div class="section-title">
-          <h1>About Me</h1>
-        </div>
-        <div class="section-container">
-          <div class="about-content section-content">
-            <div class="about-image">
-              <div class="about-portrait">
-                <div class="portrait-icon one">
-                  <img alt="Diamond grid pattern" src="assets/portrait_icon_1.svg" />
-                </div>
-                <img alt="Portrait image of the designer (Whitney Luus)" src="assets/portrait.png" />
-                <h5>Whitney Luus - Digital Media Designer and Developer</h5>
-                <div class="portrait-icon two">
-                  <img alt="Six-petal flower icon"  src="assets/portrait_icon_2.svg" />
-                </div>
-              </div>
-            </div>
-            <div class="text-container">
-              <h2>A digital media designer and developer</h2>
-              <div>
-                <p>Hi, I'm Whitney Luus, a Johannesburg-based digital media designer and front-end developer with a
-                  passion for crafting impactful brand identities and user-friendly websites. My journey began with a
-                  love for art and design, evolving into a multidisciplinary approach that encompasses web development,
-                  graphic design, SEO, social media marketing, and more.</p>
-                <p>Since 2016, I've honed my skills in:</p>
-                <ul>
-                  <li>Brand Identity Design: Creating logos, color palettes, and visual elements that tell your brand
-                    story and resonate with your target audience.</li>
-                  <li>Web Design and Development: Building mobile-friendly websites that are not only visually appealing
-                    but also optimized for search engines (SEO).</li>
-                  <li>Graphic Design: Crafting professional business cards, stationery, and marketing materials to
-                    elevate your brand image.</li>
-                  <li>Digital Marketing: Implementing strategies to increase your online visibility, attract new
-                    customers, and grow your business.</li>
-                </ul>
-                <p>Johannesburg businesses face a competitive online landscape. I understand the challenges of standing
-                  out and attracting customers. That's why I offer a comprehensive suite of services designed to:</p>
-                <ul>
-                  <li>Boost your website traffic and search engine ranking (SEO)</li>
-                  <li>Enhance your brand identity and create a lasting impression</li>
-                  <li>Develop a user-friendly website that converts visitors into customers</li>
-                  <li>Engage your target audience through effective social media marketing strategies</li>
-                  <li>Grow your online presence and reach new customers</li>
-                </ul>
-                <p>My passion lies in helping businesses bridge the gap between creativity and results. I believe in
-                  using effective digital marketing techniques to amplify your brand message, connect with your
-                  audience, and ultimately grow your business.</p>
-              </div>
-            </div>
-          </div>
-          <div class="about-cta">
-            <p>Ready to take your Johannesburg business to the next level? Let's chat about your unique needs and
-              develop a customized strategy to achieve your online goals.</p>
-            <div class="arrow-btn">
-              <h4 onclick="goTo('#contact')">Get In Touch</h4>
-              <img alt="Arrow Icon" src="assets/arrow_icon.svg" />
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="newsletter-cta-section cta">
 
-        <div class="section-title">
-          <h1>Newsletter</h1>
-        </div>
-        <div class="section-container">
-          <div class="text-container">
-            <h2>Stay Updated, It's Free!</h2>
-            <p>If you are interested in the topics of <strong>Digital Media Design and Development</strong> and
-              everything that it
-              entails, I have the just the thing <strong>for you!</strong> I send out a <strong>newsletter every
-                week</strong> with interesting
-              information on the Tech, Design, and Marketing world. <strong>Tips, tricks, tutorials, Freebies</strong>
-              and any other thing I can think of on a weekly basis to help you better understand how to master the
-              digital world and use it to your business' advantage.<strong>Subscribe Today</strong> and get exclusive
-              access to all of it free of charge.</p>
+    <main id="main">
+      <!-- HERO -->
+      <section class="hero-section" id="home">
+        <img class="hero-deco deco-star" src="assets/star_icon.png" alt="" aria-hidden="true">
+        <img class="hero-deco deco-flower" src="assets/portrait_icon_2.svg" alt="" aria-hidden="true">
+        <div class="h-box-container">
+          <div class="h-l-box">
+            <h1 data-split>Hello There, <span class="marker">Welcome</span></h1>
+            <h5 class="hero-sub">I am a <strong>Digital Media Designer</strong> and
+              <strong>Developer</strong> in <strong>Johannesburg</strong>, at your service.</h5>
+            <div class="hero-stats" aria-label="Quick facts">
+              <span class="stat-chip">Designing since 2016</span>
+              <span class="stat-chip">Johannesburg based</span>
+              <span class="stat-chip">17+ tools &amp; platforms</span>
+            </div>
+            <div class="arrow-btn-container">
+              <a class="arrow-btn" href="https://wa.me/27731693403" target="_blank" rel="noopener">
+                <span>WhatsApp Me</span>
+                <img src="assets/arrow_icon.svg" alt="" class="arrow left">
+              </a>
+              <a class="arrow-btn" href="#contact">
+                <img src="assets/arrow_icon.svg" alt="" class="arrow right">
+                <span>Get In Touch</span>
+              </a>
+            </div>
           </div>
-          <div onclick="goTo('https://luusmedialab.substack.com', '_blank')" class="btn">
-            <h5>Subscribe Now!</h5>
+          <div class="h-r-box">
+            <a class="hero-icon" href="#services" aria-label="Graphic design services">
+              <img src="assets/design_icon.svg" alt="Graphic design">
+            </a>
+            <a class="hero-icon" href="#services" aria-label="Web design and development services">
+              <img src="assets/web_icon.svg" alt="Web design and development">
+            </a>
+            <a class="hero-icon" href="#services" aria-label="Brand identity design services">
+              <img src="assets/branding_icon.svg" alt="Brand identity design">
+            </a>
+            <a class="hero-icon" href="#services" aria-label="UX/UI design services">
+              <img src="assets/ux_icon.svg" alt="UX/UI design">
+            </a>
+          </div>
+        </div>
+        <a class="starburst" href="https://wa.me/27731693403" target="_blank" rel="noopener"
+          aria-label="Chat with me on WhatsApp">
+          <span>Let's<br>chat!</span>
+        </a>
+        <p class="hero-tagline">Web Design, Development, Branding, UX/UI and so much more! Digital success
+          at your fingertips.</p>
+      </section>
+
+      <!-- TEXT MARQUEE -->
+      <div class="text-strip strip-dark" aria-hidden="true">
+        <div class="text-strip-inner">
+          <div class="marquee" data-marquee>
+            <div class="marquee-track">
+              <span>Brand Identity <em>&#9733;</em> Web Design <em>&#9733;</em> Graphic Design <em>&#9733;</em>
+                UX/UI <em>&#9733;</em> SEO <em>&#9733;</em> Digital Marketing <em>&#9733;</em></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TECH MARQUEE -->
+      <section class="tech-strip" aria-label="Tools and technologies">
+        <div class="marquee" data-marquee>
+          <div class="marquee-track">
+            <div class="tech-icon"><img src="assets/tech_icon_1.svg" alt="Flutter" title="Flutter"></div>
+            <div class="tech-icon"><img src="assets/tech_icon_2.svg" alt="PHP" title="PHP"></div>
+            <div class="tech-icon"><img src="assets/tech_icon_3.svg" alt="Adobe InDesign" title="Adobe InDesign"></div>
+            <div class="tech-icon"><img src="assets/tech_icon_4.svg" alt="WordPress" title="WordPress"></div>
+            <div class="tech-icon"><img src="assets/tech_icon_5.svg" alt="Next.js" title="Next.js"></div>
+            <div class="tech-icon"><img src="assets/tech_icon_6.svg" alt="Elementor" title="Elementor"></div>
+            <div class="tech-icon"><img src="assets/tech_icon_7.svg" alt="Adobe Audition" title="Adobe Audition">
+            </div>
+            <div class="tech-icon"><img src="assets/tech_icon_8.svg" alt="Adobe Premiere Pro" title="Adobe Premiere Pro">
+            </div>
+            <div class="tech-icon"><img src="assets/tech_icon_9.svg" alt="Adobe After Effects" title="Adobe After Effects">
+            </div>
+            <div class="tech-icon"><img src="assets/tech_icon_10.svg" alt="Adobe Photoshop" title="Adobe Photoshop">
+            </div>
+            <div class="tech-icon"><img src="assets/tech_icon_11.svg" alt="Adobe Illustrator" title="Adobe Illustrator">
+            </div>
+            <div class="tech-icon"><img src="assets/tech_icon_12.svg" alt="Node.js" title="Node.js"></div>
+            <div class="tech-icon"><img src="assets/tech_icon_13.svg" alt="React" title="React"></div>
+            <div class="tech-icon"><img src="assets/tech_icon_14.svg" alt="JavaScript" title="JavaScript"></div>
+            <div class="tech-icon"><img src="assets/tech_icon_15.svg" alt="HTML5" title="HTML5"></div>
+            <div class="tech-icon"><img src="assets/tech_icon_16.svg" alt="GitHub" title="GitHub"></div>
+            <div class="tech-icon"><img src="assets/tech_icon_17.svg" alt="Figma" title="Figma"></div>
           </div>
         </div>
       </section>
-      <section class="benefits-section">
+
+      <!-- SERVICES -->
+      <section class="services-section" id="services">
         <div class="section-title">
-          <h1>Why Whitney Luus Desingns?</h1>
+          <h2>Services</h2>
         </div>
         <div class="section-container">
-          <h2>If the years of experience and commitment to continuous growth are not enough:</h2>
-          <div class="benefits-card-container">
-            <div class="benefits-card card">
-              <div class="card-icon">
-                <img alt="Shaking hands icon (Standing for connection)" src="assets/benefits_icon_1.png" />
+          <span class="ghost-num" aria-hidden="true">01</span>
+          <h2>My Tools At Your Disposal</h2>
+
+          <div class="services-btn-container" role="tablist" aria-label="Services">
+            <button class="services-btn" role="tab" id="tab-brandIdentity" aria-controls="service-panel"
+              aria-selected="true" data-service="brandIdentity">
+              <span class="services-btn-icon"><img loading="lazy" src="assets/branding_icon.svg" alt=""></span>
+              <span class="services-btn-label">Brand Identity</span>
+            </button>
+            <button class="services-btn" role="tab" id="tab-webDesign" aria-controls="service-panel"
+              aria-selected="false" data-service="webDesign" tabindex="-1">
+              <span class="services-btn-icon"><img loading="lazy" src="assets/web_icon.svg" alt=""></span>
+              <span class="services-btn-label">Web Development</span>
+            </button>
+            <button class="services-btn" role="tab" id="tab-graphicDesign" aria-controls="service-panel"
+              aria-selected="false" data-service="graphicDesign" tabindex="-1">
+              <span class="services-btn-icon"><img loading="lazy" src="assets/design_icon.svg" alt=""></span>
+              <span class="services-btn-label">Graphic Design</span>
+            </button>
+            <button class="services-btn" role="tab" id="tab-uiux" aria-controls="service-panel" aria-selected="false"
+              data-service="uiux" tabindex="-1">
+              <span class="services-btn-icon"><img loading="lazy" src="assets/ux_icon.svg" alt=""></span>
+              <span class="services-btn-label">UX/UI</span>
+            </button>
+          </div>
+
+          <div class="divider" aria-hidden="true"></div>
+
+          <div class="services-text" id="service-panel" role="tabpanel" aria-labelledby="tab-brandIdentity" tabindex="0">
+            <div class="service-pane" data-service="brandIdentity">
+              <h3 class="service-title">Brand Identity Design</h3>
+              <div class="tags-container" aria-label="Service tags">
+                <span class="tag">Logo Design</span>
+                <span class="tag">Brand Strategy</span>
+                <span class="tag">Visual Identity Design</span>
+                <span class="tag">Brand Guidelines</span>
+                <span class="tag">Social Media Branding</span>
               </div>
+              <div class="service-description prose">
+                <p>Brand Identity Design is the essence of your business captured in a visual and experiential form. It encompasses all the elements that work together to create a distinctive presence in the competitive market your business is in. This includes:</p>
+                <ul>
+                  <li><strong>Logo Design:</strong> The symbol that represents your brand and sets the tone for all your branding.</li>
+                  <li><strong>Color Palette:</strong> A set of colors that evoke the right emotions and associations with your brand.</li>
+                  <li><strong>Typography:</strong> The style of text that conveys your brand's personality.</li>
+                  <li><strong>Imagery and Graphics:</strong> Visual elements that tell your brand's story and appeal to your target audience.</li>
+                  <li><strong>Brand Guidelines:</strong> A comprehensive guide that ensures consistency across all platforms and materials.</li>
+                </ul>
+                <p>A strong brand identity is the key to helping your business stand out and make a lasting impression on potential clients, making it easier for people to recognize and remember your business, build credibility and trust with your audience, distinguish you from competitors by highlighting your business' uniqueness, and fostering emotional connections that encourage customer loyalty and advocacy.</p>
+                <p>As a Digital Media Designer and Developer, I bring a multidisciplinary approach to crafting your unique brand persona. I understand that Brand Identity is not just about aesthetics, but also about communicating your brand's goals, heart and soul to potential customers. By integrating your brand's vision and values into every design element, I can create a cohesive and impactful identity. Each business is unique, so I take the time to understand your specific needs and goals and ensure that my designs communicate your brand's personality and position in the market with a tailored approach.</p>
+              </div>
+              <div class="service-cta">
+                <p class="service-cta-text">Your brand identity is the face of your business. It's how the world sees you, and more importantly, how it remembers you. Let's work together to create a brand identity that not only captures the essence of your business but also inspires and engages your audience. Contact me today to get started on your journey to a stronger, more memorable brand.</p>
+                <a class="btn btn-blue" href="#contact">Get In Touch!</a>
+              </div>
+            </div>
+            <div class="service-pane" data-service="webDesign" hidden>
+              <h3 class="service-title">Web Design & Development</h3>
+              <div class="tags-container" aria-label="Service tags">
+                <span class="tag">Custom Web Design</span>
+                <span class="tag">Responsive Web Design</span>
+                <span class="tag">E-commerce Development</span>
+                <span class="tag">CMS</span>
+                <span class="tag">SEO</span>
+                <span class="tag">Website Maintenance</span>
+                <span class="tag">Landing Pages</span>
+                <span class="tag">Performance Optimization</span>
+              </div>
+              <div class="service-description prose">
+                <p>Web Development is the process of crafting websites and web applications that are functional, user-friendly, and visually appealing. It encompasses a wide range of tasks, including:</p>
+                <ul>
+                  <li><strong>Web Design:</strong> Ideating and designing the perfect digital home for your business, ensuring that every element of your website is intentional and matches your brand's aesthetic.</li>
+                  <li><strong>Front-End Development:</strong> Crafting the user interface (UI) and ensuring a seamless user experience (UX) through web technologies such as HTML, CSS and JavaScript.</li>
+                  <li><strong>Back-End Development:</strong> Developing the server-side logic, databases, and APIs that power your website or application.</li>
+                  <li><strong>Responsive Design:</strong> Ensuring your website looks and functions well on all devices, from desktops to mobile phones.</li>
+                  <li><strong>Content Management Systems (CMS):</strong> Implementing platforms like WordPress, or custom CMS solutions to make content updates easy and efficient.</li>
+                  <li><strong>E-commerce Solutions:</strong> Building robust online stores with secure payment gateways, inventory management and user-friendly shopping experiences.</li>
+                  <li><strong>Web Maintenance and Support:</strong> Providing ongoing support and updates to keep your website running smoothly and securely.</li>
+                </ul>
+                <p>In today's digital age, a well-developed website is crucial for any business looking to succeed online. Your website is often the first interaction potential customers have with your business, and a professional, well-designed site creates a positive first impression. A good web developer ensures that your website is accessible to all users, so no matter your customer's limitations they are able to reach the information that they need.</p>
+                <p>A well-developed website also improves your SEO and visibility, boosting your site's search engine ranking and making it easier for potential customers to find you online. Beyond looks, your website needs to work smoothly and efficiently, and a good web developer will ensure that your business' digital home has fast load times, reliable performance, and intuitive navigation.</p>
+                <p>As a Digital Media Designer and Developer, I bring a multidisciplinary approach to building your online presence. I understand that every business has unique needs and goals and therefore provide tailored web design and development solutions that align with your brand and target audience.</p>
+              </div>
+              <div class="service-cta">
+                <p class="service-cta-text">Your website is the cornerstone of your digital presence. It's where potential customers learn about your business, engage with your brand, and make purchasing decisions. Let's work together to create a website that not only meets your business needs but also exceeds your expectations. Contact me today to start building a digital presence that drives growth and success.</p>
+                <a class="btn btn-blue" href="#contact">Get In Touch!</a>
+              </div>
+            </div>
+            <div class="service-pane" data-service="graphicDesign" hidden>
+              <h3 class="service-title">Graphic Design</h3>
+              <div class="tags-container" aria-label="Service tags">
+                <span class="tag">Print Design</span>
+                <span class="tag">Packaging Design</span>
+                <span class="tag">Illustration</span>
+                <span class="tag">Marketing Collateral</span>
+                <span class="tag">Stationery Design</span>
+                <span class="tag">Social Media Graphics</span>
+                <span class="tag">Infographics</span>
+                <span class="tag">Brand Collaterals</span>
+              </div>
+              <div class="service-description prose">
+                <p>Graphic Design is the art and practice of creating visual content to communicate messages and ideas effectively. It involves combining text, images, graphics and other elements to create compelling designs for various purposes. Key elements of graphic design include:</p>
+                <ul>
+                  <li><strong>Marketing Collateral:</strong> Creating eye-catching flyers, posters, and advertisements to promote your products or services.</li>
+                  <li><strong>Branding Materials:</strong> Designing business cards, letterheads, brochures, and other materials that reflect your brand's identity.</li>
+                  <li><strong>Digital Graphics:</strong> Designing social media graphics, email templates, and website visuals to enhance your online presence.</li>
+                  <li><strong>Illustrations and Infographics:</strong> Developing custom illustrations and infographics to convey complex information in an engaging and understandable way.</li>
+                </ul>
+                <p>Graphic Design plays a crucial role in how your brand is perceived and can significantly impact your business's success. Professional graphic design creates a strong first impression, making your brand stand out in a crowded marketplace. When your business incorporates consistent and well-designed visuals, it can help you build brand recognition and ensure that your brand is easily identifiable.</p>
+                <p>It can also help your business communicate its message clearly and compellingly, whether it's promoting a product, explaining a concept or telling your brand story. Visually appealing designs capture attention and engage your audience, increasing the likelihood of interaction and conversion — not to mention how high-quality design conveys professionalism and builds trust with your audience, making them more likely to choose your products or services.</p>
+                <p>As a Digital Media Designer and Developer, I bring a comprehensive and creative approach to your Graphic Design projects. With a deep understanding of design principles and a passion for creativity, I deliver innovative and impactful designs that resonate with your audience. I ensure that all your Graphic Design materials align with your brand identity, creating a cohesive and recognizable visual presence. I take the time to understand your business goals and target audience, providing customized design solutions that meet your specific needs.</p>
+                <p>From the initial concept to the final product, I pay meticulous attention to every detail to ensure your designs are polished and professional. Whether you need print materials, digital graphics, or custom illustrations, I have the skills and experience to deliver a wide range of design services. I believe in working closely with my clients, valuing your input and feedback to create designs that truly reflect your vision and objectives.</p>
+              </div>
+              <div class="service-cta">
+                <p class="service-cta-text">Graphic design is a powerful tool for communicating your brand's story and engaging your audience. Whether you need marketing materials or digital graphics, I'm here to help you create visuals that captivate and inspire. Contact me today to start bringing your visual story to life and take your brand to the next level.</p>
+                <a class="btn btn-blue" href="#contact">Get In Touch!</a>
+              </div>
+            </div>
+            <div class="service-pane" data-service="uiux" hidden>
+              <h3 class="service-title">UX/UI Design</h3>
+              <div class="tags-container" aria-label="Service tags">
+                <span class="tag">Wireframing & Prototyping</span>
+                <span class="tag">Usability Testing</span>
+                <span class="tag">Information Architecture</span>
+                <span class="tag">Accessibility Design</span>
+                <span class="tag">Interaction Design</span>
+                <span class="tag">Design Systems</span>
+                <span class="tag">Mobile Design</span>
+              </div>
+              <div class="service-description prose">
+                <p>UX/UI Design encompasses enhancing user satisfaction and improving the overall usability, accessibility, and pleasure provided in the interaction with a product. It involves two main components:</p>
+                <ul>
+                  <li><strong>User Experience (UX) Design:</strong> Focuses on the overall feel of the experience. UX Design is about understanding the user journey, addressing user pain points, and ensuring that the product is useful, usable, and enjoyable.</li>
+                  <li><strong>User Interface (UI) Design:</strong> Involves the look and layout. UI Design is about designing the screens and interactive elements (buttons, icons, spacing) that users interact with.</li>
+                </ul>
+                <p>Effective UX/UI Design is crucial for creating products that not only meet user needs but also provide an enjoyable and seamless experience. Good UX Design enhances user satisfaction by providing a positive interaction experience, leading to increased loyalty and engagement. It ensures that the product is easy to use and intuitive, reducing the learning curve and minimizing user frustration. Well-designed interfaces also streamline user tasks, improving efficiency and productivity. Visually appealing designs attract users and create a memorable experience, enhancing brand perception. User Experience Design also employs the Design Thinking Process, which keeps usability and accessibility at the forefront of the design process.</p>
+                <p>As a Digital Media Designer and Developer, I bring a comprehensive and user-centered approach to crafting exceptional user experiences. I prioritize the needs and preferences of your users, ensuring that the design process is focused on delivering a positive and meaningful experience. I consider both UX and UI aspects, ensuring that the product is not only functional and intuitive but also visually engaging and aligned with your brand. I conduct thorough user research and usability testing to understand user behavior, identify pain points, and validate design solutions.</p>
+                <p>I create interactive prototypes and iterate based on user feedback, refining the design to meet user needs and business goals effectively. I design with accessibility in mind, ensuring that your product is usable by everyone, including individuals with disabilities. I incorporate your insights and feedback throughout the design process to ensure that the final product aligns with your vision. With a strong background in Web Development, Graphic Design, UX/UI, and Interactive Design, I have the technical skills to bring your ideas to life, ensuring seamless integration and implementation.</p>
+              </div>
+              <div class="service-cta">
+                <p class="service-cta-text">Your product's success depends on how well it meets the needs and expectations of your users. Let's work together to create a UX/UI design that not only delights your users but also drives engagement and growth. Contact me today to start crafting exceptional user experiences that set your product apart.</p>
+                <a class="btn btn-blue" href="#contact">Get In Touch!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROCESS -->
+      <section class="process-section" id="process">
+        <div class="section-title">
+          <h2>Process</h2>
+        </div>
+        <div class="section-container">
+          <span class="ghost-num" aria-hidden="true">02</span>
+          <h2>How We'll Work Together</h2>
+          <p class="process-intro reveal">A clear, collaborative path from first hello to launch day &mdash; you're
+            informed and involved at every step, so there are no surprises.</p>
+          <div class="process-steps">
+            <div class="process-step reveal">
+              <span class="process-num">01</span>
+              <h4>Free Consultation</h4>
+              <p>We chat about your business, your goals and your challenges &mdash; no cost, no obligation.</p>
+            </div>
+            <div class="process-step reveal">
+              <span class="process-num">02</span>
+              <h4>Proposal &amp; Quote</h4>
+              <p>I put together a clear scope, timeline and quote tailored to exactly what you need.</p>
+            </div>
+            <div class="process-step reveal">
+              <span class="process-num">03</span>
+              <h4>Design &amp; Review</h4>
+              <p>I design your solution and refine it with your feedback until it feels just right.</p>
+            </div>
+            <div class="process-step reveal">
+              <span class="process-num">04</span>
+              <h4>Build &amp; Launch</h4>
+              <p>I develop, test and launch your project so it performs beautifully on every device.</p>
+            </div>
+            <div class="process-step reveal">
+              <span class="process-num">05</span>
+              <h4>Support &amp; Growth</h4>
+              <p>I stick around with ongoing support, maintenance and advice as your business grows.</p>
+            </div>
+          </div>
+          <a class="btn btn-yellow pulse" href="https://wa.me/27731693403" target="_blank" rel="noopener">Start With A
+            Free Consultation</a>
+        </div>
+      </section>
+
+      <!-- BENEFITS -->
+      <section class="benefits-section" id="why">
+        <div class="section-title">
+          <h2>Why Whitney Luus Designs?</h2>
+        </div>
+        <div class="section-container">
+          <span class="ghost-num" aria-hidden="true">03</span>
+          <h2 class="benefits-lead reveal">If the years of experience and commitment to continuous growth are not
+            enough:</h2>
+          <div class="benefits-card-container reveal">
+            <div class="card">
+              <div class="card-icon"><img loading="lazy" decoding="async" src="assets/benefits_icon_1.png" alt=""></div>
               <h4>Connection</h4>
               <p>I like to really get to know my clients' needs and build lasting relationships with them.</p>
             </div>
-            <div class="benefits-card card">
-              <div class="card-icon">
-                <img alt="Eye icon (Standing for Multi-disciplinary vision)" src="assets/benefits_icon_2.png" />
-              </div>
+            <div class="card">
+              <div class="card-icon"><img loading="lazy" decoding="async" src="assets/benefits_icon_2.png" alt=""></div>
               <h4>Multi-Disciplinary</h4>
               <p>My wide range of skills allows me to have a holistic understanding of your project.</p>
             </div>
-            <div class="benefits-card card">
-              <div class="card-icon">
-                <img alt="Magnifying glass icon (Standing for attention to detail)" src="assets/benefits_icon_3.png" />
-              </div>
+            <div class="card">
+              <div class="card-icon"><img loading="lazy" decoding="async" src="assets/benefits_icon_3.png" alt=""></div>
               <h4>Attention To Detail</h4>
               <p>From concept to final solution, I pay meticulous attention to every detail.</p>
             </div>
-            <div class="benefits-card card">
-              <div class="card-icon">
-                <img alt="Speech bubbles icon (Standing for communication)" src="assets/benefits_icon_4.png" />
-              </div>
+            <div class="card">
+              <div class="card-icon"><img loading="lazy" decoding="async" src="assets/benefits_icon_4.png" alt=""></div>
               <h4>Communication</h4>
               <p>You have a say in every part of the development of your project. Your feedback is key!</p>
             </div>
           </div>
-          <h5>I am committed to providing services that are professional, exceptional and that bring the results your
-            business needs.</h5>
-          <div onclick="goTo('https://calendar.app.google/taiJDDSPTkY6q4UG6', 'target')" class="btn">
-            <h5>Get Your Free Consultation Today!</h5>
-          </div>
-          <p class="caption">All consultations are free of charge and help Identify your business' unique needs.</p>
+          <h5 class="benefits-note">I am committed to providing services that are professional, exceptional and that
+            bring the results your business needs.</h5>
+          <a class="btn btn-yellow pulse" href="https://wa.me/27731693403" target="_blank" rel="noopener">Get Your Free
+            Consultation Today!</a>
+          <p class="caption">All consultations are free of charge and help identify your business' unique needs.</p>
         </div>
       </section>
-      <section class="services-section" id="services">
+
+      <!-- FAQ -->
+      <section class="faq-section" id="faq">
         <div class="section-title">
-          <h1>Services</h1>
+          <h2>FAQ</h2>
         </div>
         <div class="section-container">
-          <h2>My Tools At Your Disposal</h2>
-          <div class="services-btn-container">
-            <div class="services-btn" data-service="brandIdentity">
-              <div class="services-btn-icon">
-                <img alt="Brand Identity Design Icon" src="assets/branding_icon.svg" />
+          <span class="ghost-num" aria-hidden="true">04</span>
+          <h2>Questions, Answered</h2>
+          <div class="faq-list">
+            <details class="faq-item reveal">
+              <summary>What services do you offer?</summary>
+              <div class="faq-answer">
+                <p>I offer Brand Identity Design, Web Design &amp; Development, Graphic Design and UX/UI Design &mdash;
+                  plus the SEO and digital marketing that helps it all get found.</p>
               </div>
-              <h5>Brand Identity</h5>
-            </div>
-            <div class="services-btn" data-service="webDesign">
-              <div class="services-btn-icon">
-                <img alt="Web Design and Development Icon" src="assets/web_icon.svg" />
+            </details>
+            <details class="faq-item reveal">
+              <summary>How much do your services cost?</summary>
+              <div class="faq-answer">
+                <p>Every project is different, so I quote per project. Book a free consultation and I'll give you a
+                  clear, tailored quote with no hidden surprises.</p>
               </div>
-              <h5>Web Development</h5>
-            </div>
-            <div class="services-btn" data-service="graphicDesign">
-              <div class="services-btn-icon">
-                <img alt="Graphic Design Icon" src="assets/design_icon.svg" />
+            </details>
+            <details class="faq-item reveal">
+              <summary>How long does a project take?</summary>
+              <div class="faq-answer">
+                <p>Timelines depend on the scope of your project. After our free consultation I'll map out a clear
+                  schedule so you know exactly what to expect, and when.</p>
               </div>
-              <h5>Graphic Design</h5>
-            </div>
-            <div class="services-btn" data-service="uiux">
-              <div class="services-btn-icon">
-                <img alt="UX/UI Design Icon" src="assets/ux_icon.svg" />
+            </details>
+            <details class="faq-item reveal">
+              <summary>Do you work with clients outside Johannesburg?</summary>
+              <div class="faq-answer">
+                <p>Absolutely. I'm based in Johannesburg but work remotely with clients anywhere, keeping in touch by
+                  WhatsApp, email and video calls.</p>
               </div>
-              <h5>UX/UI</h5>
-            </div>
-            <script>
-              const serviceContent = {
-                brandIdentity: {
-                  title: "Brand Identity Design",
-                  tags: ["Logo Design", "Brand Strategy", "Visual Identity Design", "Brand Guidelines", "Social Media Branding"],
-                  description:
-                    `<p>Brand Identity Design is the essence of your business captured in a visual and experiential form. It encompasses all the elements that work together to create a distinctive presence in the competitive market your business is in. This includes:</p>
-       <ul>
-         <li>Logo Design: The symbol that represents your brand and sets the tone for all your branding.</li>
-         <li>Color Palette: A set of colors that evoke the right emotions and associations with your brand.</li>
-         <li>Typography: The style of text that conveys your brand's personality</li>
-         <li>Imagery and Graphics: Visual elements that tell your brand's story and appeal to your target audicence</li>
-         <li>Brand Guidelines: A comprehensive guide that ensures consistency across all platforms and materials.</li>
-       </ul>
-       <p>A strong brand identity is the key to help your business stand out and make a lasting impression on potential clients, making it easier for people to recognize and remember your business, build credibility and trust with your audience, distinguish you from competitors by higlighting your business' uniqueness, and fostering emotional connections that encourage customer loyalty and advocacy.</p>
-       <p>As a Digital Media Designer and Developer, I bring a multidisciplinary approach to crafting your unique brand persona. I understand that Brand Identity is not just about aesthetics, but also about communicating your brand's goals, heart and soul to potential customers. By integrating your brand's vision and values into every design element I can create a cohesive and impactful identity. Each business is unique, so I take the time to understand your specific needs and goals and ensure that my designs communicate your brand's personality and position in the market with a tailored approach.</p>
-      `,
-                  ctaText: "Your brand identity is the face of your business. It's how the world sees you, and more importantly, how it remembers you. Let's work together to create a brand identity that not only captures the essence of your business but also inspires and engages your audience. Contact me today to get started on your journey to a stronger, more memorable brand."
-                },
-                webDesign: {
-                  title: "Web Design & Development",
-                  tags: ["Custom Web Design", "Responsive Web Design", "E-commerce Development", "Content Management System (CMS)", "SEO", "Website Maintenance and Support", "Landing Page Design", "Performance Optimization"],
-                  description:
-                    `<p>Web Development is the process of crafting websites and web application that are functional, user-friendly, and visually appealiing. It encompasses a wide range of tasks, including:</p>
-      <ul>
-        <li>Web Design: Ideating and designing the perfect digital home for your business ensuring that every element of your website is intentional and matches your brand's aesthetic.</li>
-        <li>Front-End Development: Crafting the user interface (UI) and ensuring a seamless user experience (UX) through different web technologies such as HTML, CSS and Javascript.</li>
-        <li>Back-End Development: Developing the server-side logic, databases, and APIs that power your website or application.</li>
-        <li>Responsive Design: Ensuring your website looks and functions well on all devices, from desktops to mobile phones.</li>
-        <li>Content Management Systems (CMS): Implementing platforms like WrodPress, or custom CMS solutions to make content updates easy and efficient.</li>
-        <li>E-commerce Solutions: Building robust online stores with secure payment gateways, inventory management and user-friendly shopping experiences.</li>
-        <li>Web Maintenance and Support: Providing ongoing support and updates to keep your website running smoothly and securely.</li>
-      </ul>
-      <p>In today's digital age, a well-developed website is crucial for any business looking to succeed online. Your website is often the first interaction potential customers have with your business and a professional, well-designed site, creates a positive first impression. A good web developer ensures that your website is accessible to all users, ensuring that no matter your customer's limitations they are able to reach the information that they need.</p>
-      <p>A well developed website also improves your SEO and visibility boosting your site's search engine ranking and making it easier for potential customers to find you online. Beyond looks, your website needs to work smoothly, and efficiently, and a good web developer will ensure that your business' digital home has fast load times, reliable performance, and intuitive navigation.</p>
-      <p>As a Digital Media Designer and Developer, I bring a multidisciplinary approach to building your online presence. I uderstand that every business has unique needs and goals and therefore provide tailored web design and development solutions that align with your brand and target audience.</p>
-      `,
-                  ctaText: "Your website is the cornerstone of your digital presence. It’s where potential customers learn about your business, engage with your brand, and make purchasing decisions. Let’s work together to create a website that not only meets your business needs but also exceeds your expectations. Contact me today to start building a digital presence that drives growth and success."
-                },
-                graphicDesign: {
-                  title: "Graphic Design",
-                  tags: ["Print Design", "Packaging Design", "Illustration", "Marketing Collateral Design", "Stationery Design", "Social Media Graphics", "Infographics", "Brand Collaterals"],
-                  description:
-                    `<p>Graphic Design is the art and practice of creating visual content to communicate messages and ideas effectively. It involves combining text, images and graphics, and other elements to create compelling designs for various purposes. Key elements of graphic design includes:</p>
-      <ul>
-        <li>Marketing Collateral: Creating eye-catching flyers, posters, and advertisements to promote your products or services.</li>
-        <li>Branding Materials: Designing business cards, letterheads, brochures, and other materials that reflect your brand's identity.</li>
-        <li>Digital Graphics: Designing social media graphics, email templates, and website visuals to enhance your online presence.</li>
-        <li>Illustrations and Infographics: Developing custom illustrations and infographics to convey complex information in an engaging and understandable way.</li>
-        <li></li>
-      </ul>
-      <p>Graphic Design plays a crucial role in how your brand is perceived and can significantly impact your business's success. Professional graphic design creates a strong first impression, making your brand stand out in a crowded marketplace. When your business incorporates consistent and well-designed visuals, it can help you build brand recognition and ensure that your brand is easily identifiable.</p>
-      <p>It can also help your business communicate its message clearly and compellingly, whether it's promoting a product, explaining a concept or telling your brand story. Visually appealing designs capture attention and engage your audience, increasing the likelyhood of interaction and conversion, not to speak of how high-quality design conveys professionalism and builds trust with your audience, making them more likely to choose your products or services.</p>
-      <p>As a Digital Media Designer and Developer I bring a comprehensive and creative approach to your Graphic Design projects. With a deep understanding of design principles and a passion for creativity, I deliver innovative and impactful designs that resonate with your audience. I ensure that all your Graphic Design materials align with your brand identity, creating a cohesive and recognizable visual presence. I take the time to understand your business goals and target audience, providing customized design solutions that meet your specific needs.</p>
-      <p>From the initial concept to the final product, I pay meticulous attention to every detail to ensure your designs are polished and professional. Whether you need print materials, digital graphics, or custom illustrations, I have the skills and experience to deliver a wide range of design services. I believe in working closely with my clients, valuing your input and feedback to create designs that truly reflect your vision and objectives.</p>
-      `,
-                  ctaText: "Graphic design is a powerful tool for communicating your brand’s story and engaging your audience. Whether you need marketing materials, or digital graphics, I’m here to help you create visuals that captivate and inspire. Contact me today to start bringing your visual story to life and take your brand to the next level."
-                },
-                uiux: {
-                  title: "UX/UI Design",
-                  tags: ["Wireframing and Prototyping", "Usability Testing", "Information Architecture", "Accessibility Design", "Interaction Design", "Design System Development", "Business Card Design"],
-                  description:
-                    `<p>UX/UI Design encompasses the presence of enhancing user satisfaction and improving the overall usability, accessibility, and pleasure provided in the interaction with a product. It involved two main components:</p>
-      <ul>
-        <li>User Experience (UX) Design: Focuses on the overall feel of the experience. UX Design is about understanding the user journey, addressing user pain points, and ensuring that the product is useful, usable, and enjoyable.</li>
-        <li>User Interface (UI) Design: Involved the look and layout. UI Design is about designing the screens and interactive elements (buttons, icons, spacing) that users interact with.</li>
-      </ul>
-      <p>Effective UX/UI Design is crucial for creating products that not only meet user needs but also provide an enjoyable and seamless experience. Good UX Design enhances user satisfaction by providing positive interaction experience, leading to increased loyalty and engagement. It ensures that the product is easy to use and intuitive, reducing the learning curve and minimizing user frustration. Well-designed interfaces also streamline user tasks, improving efficiency and productivity, Visually appealing designs attract users and create a memorable experience, enhancing brand perception. User Experience (UX) Design also employs the Design Thinking Process, which which keeps usability and accessibility at the forefront of the design process, ensuring that the product is easy to use, reducing the learning curve and minimizing user frustration.</p>
-      <p>As a Digital Media Designer and Developer, I bring a comprehenive and user-centered approach to crafting exceptional user experiences. I prioritize the needs and preferences of your users, ensuring that the design process is focused on delivering a positive and meaningful experience. I consider both UX and UI aspects, ensuring that the product is not only functional and intuitive but also visually engaging and aligned with your brand. I conduct thorough user research and usability testing to understand user behavior, identify pain points, and validate design solutions.</p>
-      <p>I create interactive prototypes and iterate based on user feedback, refining the design to meet user needs and business goals effectively. I design with accessibility in mind, ensuring that your product is usable by everyone, including individuals with disabilities. I try to incorporate your insights and feedback throughout the design process to ensure that the final product aligns with your vision. With a strong background in Web Development, Graphic Design, UX/UI, and Interactive Design, I have the technical skills to bring your ideas to life, ensuring seamless integration and implementation.</p>
-      `,
-                  ctaText: "Your product’s success depends on how well it meets the needs and expectations of your users. Let’s work together to create a UX/UI design that not only delights your users but also drives engagement and growth. Contact me today to start crafting exceptional user experiences that set your product apart."
-                }
-              };
-
-
-              /**
- * In-place Fisher–Yates shuffle
- */
-              function shuffle(array) {
-                for (let i = array.length - 1; i > 0; i--) {
-                  const j = Math.floor(Math.random() * (i + 1));
-                  [array[i], array[j]] = [array[j], array[i]];
-                }
-              }
-
-              document.addEventListener('DOMContentLoaded', () => {
-                const tagColors = [
-                  'var(--yellow)',
-                  'var(--yellow10)',
-                  'var(--yellow9)',
-                  'var(--yellow8)',
-                  'var(--red)',
-                  'var(--red10)',
-                  'var(--red9)',
-                  'var(--red8)',
-                  'var(--red7)',
-                  'var(--green)',
-                  'var(--green10)',
-                  'var(--green9)',
-                  'var(--green8)',
-                  'var(--green7)',
-                  'var(--pink)',
-                  'var(--pink10)',
-                  'var(--pink9)',
-                  'var(--pink8)',
-                  'var(--pink7)',
-                  'var(--purple)',
-                  'var(--purple10)',
-                  'var(--purple9)',
-                  'var(--purple8)',
-                  'var(--purple8)',
-                  'var(--purple7)',
-                  'var(--blue)',
-                  'var(--blue10)',
-                  'var(--blue9)',
-                  'var(--blue8)',
-                  'var(--blue7)'
-                ];
-
-                const btns = document.querySelectorAll('.services-btn-container .services-btn');
-                const titleEl = document.querySelector('.service-title');
-                const tagsEl = document.querySelector('.tags-container');
-                const descEl = document.querySelector('.service-description');
-                const ctaEl = document.querySelector('.service-cta-text');
-
-                btns.forEach(btn => {
-                  btn.addEventListener('click', () => {
-                    // 1) toggle active class
-                    btns.forEach(b => b.classList.remove('active'));
-                    btn.classList.add('active');
-
-                    // 2) grab the key, look up content
-                    const key = btn.dataset.service;
-                    const data = serviceContent[key];
-
-                    // 3) update title & description
-                    titleEl.innerHTML = data.title;
-                    descEl.innerHTML = data.description;
-                    ctaEl.innerHTML = data.ctaText;
-
-                    // 4) shuffle colors & render tags
-                    const colors = tagColors.slice();  // copy
-                    shuffle(colors);
-
-                    tagsEl.innerHTML = '';
-                    data.tags.forEach((tagText, i) => {
-                      const span = document.createElement('span');
-                      span.classList.add('tag');
-                      span.textContent = tagText;
-                      // assign from shuffled list
-                      span.style.backgroundColor = colors[i % colors.length];
-                      tagsEl.appendChild(span);
-                    });
-                  });
-                });
-
-                // fire initial load
-                if (btns[0]) btns[0].click();
-              });
-
-            </script>
+            </details>
+            <details class="faq-item reveal">
+              <summary>How do we get started?</summary>
+              <div class="faq-answer">
+                <p>Easy &mdash; send me a WhatsApp or fill in the contact form below. We'll set up a free consultation
+                  and take it from there.</p>
+              </div>
+            </details>
+            <details class="faq-item reveal">
+              <summary>Do you offer ongoing support?</summary>
+              <div class="faq-answer">
+                <p>Yes. I offer website maintenance and support to keep everything fast, secure and up to date long
+                  after launch.</p>
+              </div>
+            </details>
+            <details class="faq-item reveal">
+              <summary>Can you redesign my existing website?</summary>
+              <div class="faq-answer">
+                <p>Yes &mdash; I can refresh, redesign or rebuild your current site, keeping what works and fixing
+                  what doesn't, so it looks sharp, loads fast and converts better.</p>
+              </div>
+            </details>
           </div>
-          <div class="divider"></div>
-          <div class="services-text-container">
-            <div class="services-text">
-              <h3 class="service-title"></h3>
-              <p class="tags-container"></p>
-              <div class="service-description"></div>
-              <div class="service-cta">
-                <p class="service-cta-text"></p>
-                <div onclick="goTo('#contact')" class="btn">
-                  <h5>Get In Touch!</h5>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about-section" id="about">
+        <div class="section-title">
+          <h2>About Me</h2>
+        </div>
+        <div class="section-container">
+          <span class="ghost-num" aria-hidden="true">05</span>
+          <div class="about-content">
+            <div class="about-image reveal">
+              <div class="about-portrait">
+                <div class="portrait-icon one" aria-hidden="true">
+                  <img loading="lazy" src="assets/portrait_icon_1.svg" alt="">
+                </div>
+                <img decoding="async" class="portrait" src="assets/portrait.png" loading="lazy"
+                  alt="Portrait of Whitney Luus, digital media designer and developer">
+                <h5>Whitney Luus &mdash; Digital Media Designer and Developer</h5>
+                <div class="portrait-icon two" aria-hidden="true">
+                  <img loading="lazy" src="assets/portrait_icon_2.svg" alt="">
                 </div>
               </div>
             </div>
+            <div class="text-container reveal" style="--d:.1s">
+              <h2>The designer behind the work</h2>
+              <div class="prose">
+                <p>Hi, I'm Whitney Luus, a Johannesburg-based digital media designer and front-end developer. Since
+                  2016 I've helped businesses turn ideas into brands and websites that people remember, blending
+                  strategy, design and code into one seamless service. I work with clients in Johannesburg, Roodepoort,
+                  Randburg and across South Africa &mdash; and remotely with businesses worldwide.</p>
+                <p>I work across:</p>
+                <ul>
+                  <li><strong>Brand Identity Design:</strong> Logos, color palettes and visual systems that tell your
+                    brand story.</li>
+                  <li><strong>Web Design &amp; Development:</strong> Mobile-friendly, SEO-ready websites built to
+                    convert.</li>
+                  <li><strong>Graphic Design:</strong> Business cards, stationery and marketing materials that elevate
+                    your brand.</li>
+                  <li><strong>UX/UI Design:</strong> Intuitive, accessible interfaces and design systems that keep
+                    users coming back.</li>
+                  <li><strong>Digital Marketing:</strong> SEO, social media and campaigns that grow your visibility.</li>
+                </ul>
+              </div>
+            </div>
           </div>
+          <div class="about-cta reveal">
+            <p>Ready to take your business to the next level? Let's chat about your goals and build a plan that gets
+              you there.</p>
+            <a class="btn btn-green pulse" href="https://wa.me/27731693403" target="_blank" rel="noopener">Let's Chat On
+              WhatsApp</a>
+            <a class="arrow-btn" href="downloads/WHITNEY_ANULI_LUUS_CV.pdf" target="_blank" rel="noopener" download>
+              <span>Download CV</span>
+              <img loading="lazy" src="assets/arrow_icon.svg" alt="" class="arrow left">
+            </a>
+          </div>
+        </div>
       </section>
     </main>
+
+    <!-- TEXT MARQUEE -->
+    <div class="text-strip strip-light" aria-hidden="true">
+      <div class="text-strip-inner">
+        <div class="marquee" data-marquee>
+          <div class="marquee-track">
+            <span>Let's build something great <em>&#9733;</em> Design <em>&#9733;</em> Develop <em>&#9733;</em>
+              Deliver <em>&#9733;</em> Get a free consultation <em>&#9733;</em></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <footer>
-      <section class="contact-section">
+      <!-- CONTACT -->
+      <section class="contact-section" id="contact">
         <div class="contact-cta-container">
           <div class="contact-cta-title">
-            <p>Your brand’s <span>digital success</span> is one click away!</p>
+            <p>Your brand's <span>digital success</span> is one click away!</p>
+          </div>
+          <p class="contact-cta-sub">Call or WhatsApp me for a free, no-obligation consultation.</p>
+          <div class="contact-actions">
+            <a class="btn btn-green pulse" href="https://wa.me/27731693403" target="_blank" rel="noopener">
+              <img loading="lazy" src="assets/whatsapp_icon_yellow.svg" alt="" aria-hidden="true">WhatsApp Me
+            </a>
+            <a class="btn" href="tel:+27731693403">
+              <img loading="lazy" src="assets/phone_icon_yelllow.svg" alt="" aria-hidden="true">Call +27 73 169 3403
+            </a>
           </div>
           <div class="contact-cta-icon-container">
-            <div class="contact-cta-icon">
-              <img alt="Graphic Design Icon" src="assets/design_icon.svg" />
-            </div>
-            <div class="contact-cta-icon">
-              <img alt="Web Design and Development Icon" src="assets/web_icon.svg" />
-            </div>
-            <div class="contact-cta-icon">
-              <img alt="Brand Identity Design Icon" src="assets/branding_icon.svg" />
-            </div>
-            <div class="contact-cta-icon">
-              <img alt="UX/UI Design Icon" src="assets/ux_icon.svg" />
-            </div>
-          </div>
-          <div class="portfolio-info">
-            <p>Check put some of my work:</p>
-            <div class="portfolio-links">
-              <a href="https://www.playbook.com/s/whitneyoo/whitney-a-de-oliveira-okafor"
-                target="_blank">Playbook</a>
-              <span>*</span>
-              <a href="https://www.behance.net/whitneyluusdesigns" target="_blank">Behance</a>
-              <!-- <span>*</span> -->
-              <a href="https://www.linkedin.com/in/whitneyookafor" target="_blank">LinkedIN</a>
-              <span>*</span>
-              <a href="https://www.upwork.com/freelancers/~0190179526e2637ba0?mp_source=share"
-                target="_blank">UpWork</a>
-
-            </div>
+            <div class="contact-cta-icon"><img loading="lazy" src="assets/design_icon.svg" alt="Graphic design"></div>
+            <div class="contact-cta-icon"><img loading="lazy" src="assets/web_icon.svg" alt="Web design and development"></div>
+            <div class="contact-cta-icon"><img loading="lazy" src="assets/branding_icon.svg" alt="Brand identity design"></div>
+            <div class="contact-cta-icon"><img loading="lazy" src="assets/ux_icon.svg" alt="UX/UI design"></div>
           </div>
         </div>
-        <div id="contact" class="contact-form-container">
-          <form id="contact_form">
+
+        <div class="contact-form-container">
+          <form id="contact_form" novalidate>
             <div class="input-box-group">
               <div class="input-box">
-                <label>Name</label>
-                <input id="name" type="text" placeholder="Your Name" />
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Your Name" autocomplete="given-name" required>
+                <p class="field-error" id="name-error" aria-live="polite"></p>
               </div>
               <div class="input-box">
-                <label>Surname</label>
-                <input id="surname" type="text" placeholder="Your Surname" />
+                <label for="surname">Surname</label>
+                <input id="surname" name="surname" type="text" placeholder="Your Surname"
+                  autocomplete="family-name">
               </div>
             </div>
             <div class="input-box">
-              <label>Phone Number</label>
-              <input id="number" type="number" placeholder="+XX XX XXX XXXX" />
+              <label for="number">Phone Number</label>
+              <input id="number" name="number" type="tel" placeholder="+XX XX XXX XXXX" autocomplete="tel">
             </div>
             <div class="input-box">
-              <label>Email</label>
-              <input id="email" type="email" placeholder="Your@email.com" />
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="Your@email.com" autocomplete="email" required>
+              <p class="field-error" id="email-error" aria-live="polite"></p>
             </div>
             <div class="input-box">
-              <label>Message</label>
-              <textarea id="message" placeholder="Tell me what you need, I got you!"></textarea>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell me what you need, I got you!" required></textarea>
+              <p class="field-error" id="message-error" aria-live="polite"></p>
             </div>
-            <button aria-label="Submit Button" class="submit-btn s-btn">
-              <img alt="Paper plane icon" src="assets/send_icon.svg" />
+            <button aria-label="Send message" class="submit-btn s-btn">
+              <img loading="lazy" src="assets/send_icon.svg" alt="">
             </button>
           </form>
-          <p class="form-status"></p>
+          <p class="form-status" role="status" aria-live="polite"></p>
         </div>
       </section>
+
+      <!-- FOOTER -->
       <section class="footer-section">
         <div class="footer-col1 f-col">
-          <img alt="Full Whitney Luus Designs Logo" src="assets/full_logo.svg" />
+          <img loading="lazy" src="assets/full_logo.svg" alt="Whitney Luus Designs" class="footer-logo">
+          <p class="copyright">&copy; <span id="year">2026</span> Whitney Luus Designs. All rights reserved.</p>
         </div>
-        <!-- <div class="footer-col2 f-col">
-          <h4>Sitemap</h4>
-          <div class="sub-col">
-            <p><span>*</span> Home</p>
-            <p><span>*</span>About</p>
-            <p><span>*</span></p>
-            <p><span>*</span></p>
-            <p><span>*</span></p>
-            <p><span>*</span></p>
-          </div>
-          <div class="sub-col">
-            <p><span>*</span></p>
-            <p><span>*</span></p>
-            <p><span>*</span></p>
-            <p><span>*</span></p>
-            <p><span>*</span></p>
-            <p><span>*</span></p>
-          </div>
-        </div> -->
         <div class="footer-col3 f-col">
           <h4>Contact Information</h4>
-          <div class="">
-            <div class="icon-link">
-              <img alt="Email icon" src="assets/email_icon_yellow.svg" />
+          <div class="contact-list">
+            <a class="icon-link" href="mailto:info@whitneyluusdesigns.com">
+              <img loading="lazy" src="assets/email_icon_yellow.svg" alt="">
               <p>info@whitneyluusdesigns.com</p>
-            </div>
-            <div class="icon-link">
-              <img alt="Phone number Icon" src="assets/phone_icon_yelllow.svg" />
-              <img alt="Whatsapp Icon" src="assets/whatsapp_icon_yellow.svg" />
+            </a>
+            <a class="icon-link" href="tel:+27731693403">
+              <img loading="lazy" src="assets/phone_icon_yelllow.svg" alt="">
+              <img loading="lazy" src="assets/whatsapp_icon_yellow.svg" alt="">
               <p>+27 73 169 3403</p>
-            </div>
-            <div class="icon-link">
-              <img alt="Instagram Icon" src="assets/instagram_icon_yellow.svg" />
+            </a>
+            <a class="icon-link" href="https://instagram.com/whitneyluusdesigns" target="_blank" rel="noopener">
+              <img loading="lazy" src="assets/instagram_icon_yellow.svg" alt="">
               <p>@whitneyluusdesigns</p>
-            </div>
-            <div class="icon-link">
-              <img alt="Youtube Icon" src="assets/youtube_icon_yellow.svg" />
+            </a>
+            <a class="icon-link" href="https://youtube.com/@LuusMediaLab" target="_blank" rel="noopener">
+              <img loading="lazy" src="assets/youtube_icon_yellow.svg" alt="">
               <p>@LuusMediaLab</p>
-            </div>
-            <div class="icon-link">
-              <img alt="Substack Icon" src="assets/substack_icon_yellow.svg" />
+            </a>
+            <a class="icon-link" href="https://luusmedialab.substack.com" target="_blank" rel="noopener">
+              <img loading="lazy" src="assets/substack_icon_yellow.svg" alt="">
               <p>luusmedialab.substack.com</p>
-            </div>
+            </a>
           </div>
         </div>
         <div class="footer-col4 f-col">
@@ -786,20 +798,23 @@
           <p>Want to be notified whenever there's a new special or freebie available? Drop your email down below and
             I'll make sure to keep you posted!</p>
           <div class="mailing-list-input-box">
-            <form id="mailing_form">
-              <input id="mailing_email" type="email" placeholder="your@email.com" />
-              <button aria-label="Submit Button" class="mailing-list-submit s-btn">
-                <img alt="Paper plane icon" src="assets/send_icon.svg" />
+            <form id="mailing_form" novalidate>
+              <label class="sr-only" for="mailing_email">Email address</label>
+              <input id="mailing_email" name="email" type="email" placeholder="your@email.com" required>
+              <button aria-label="Subscribe" class="mailing-list-submit s-btn">
+                <img loading="lazy" src="assets/send_icon.svg" alt="">
               </button>
             </form>
           </div>
-          <p class="mailing-form-status "></p>
+          <p class="mailing-form-status" role="status" aria-live="polite"></p>
         </div>
       </section>
-
     </footer>
   </div>
-  <script src="./js/custom.js"></script>
+
+  <button class="back-to-top" aria-label="Back to top" hidden>
+    <img loading="lazy" src="assets/arrow_icon.svg" alt="">
+  </button>
 </body>
 
 </html>
